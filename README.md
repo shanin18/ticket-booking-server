@@ -45,17 +45,21 @@ Ticket booking platform is an online service that facilitates the purchase and r
 
 ### Endpoints => <a name="endpoints"></a>
 
-- **https://shopease-server.vercel.app/products**
-- **https://shopease-server.vercel.app/products/${id}**
-- **https://shopease-server.vercel.app/add-product**
-- **https://shopease-server.vercel.app/update-product**
-- **https://shopease-server.vercel.app/delete-product**
+- **https://ticket-booking-server-delta.vercel.app/users**
+- **https://ticket-booking-server-delta.vercel.app/users/register**
+- **https://ticket-booking-server-delta.vercel.app/users/login**
+- **https://ticket-booking-server-delta.vercel.app/events**
+- **https://ticket-booking-server-delta.vercel.app/events/[id]**
+- **https://ticket-booking-server-delta.vercel.app/payments**
+- **https://ticket-booking-server-delta.vercel.app/bookings**
+- **https://ticket-booking-server-delta.vercel.app/bookings/[eventId]**
+- **https://ticket-booking-server-delta.vercel.app/bookings/email/[email]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://shopease-server.vercel.app/">Live Demo</a>
+- <a href="https://ticket-booking-server-delta.vercel.app/">Live Demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +75,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/shanin18/shopease-server.git
+  git clone https://github.com/shanin18/ticket-booking-server.git
 ```
 
 ### Install
@@ -79,7 +83,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd shopease-server
+  cd ticket-booking-server
   npm install
 ```
 
