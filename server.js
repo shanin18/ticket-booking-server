@@ -12,9 +12,15 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
-app.use(bodyParser.json());
+const corsConfig = {
+  origin: "*",
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+};
 
+app.use(cors(corsConfig));
+app.use(express.json());
+app.use(bodyParser.json());
 
 // MongoDB connection
 const client = new MongoClient(process.env.MONGO_URI, {
