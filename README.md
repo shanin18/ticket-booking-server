@@ -2,7 +2,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents <a name="about-project">Shopease Server</a>
+# 📗 Table of Contents
 
 - [🛍️ Ticket Booking Server ](#-ticket-booking-Server-)
   - [🛠 Built With ](#-built-with-)
